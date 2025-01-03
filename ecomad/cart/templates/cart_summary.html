@@ -76,9 +76,11 @@
              
              <br/><br/>
             {% endfor %}
-             
-            <h3>  Total = Rs{{ totles}} </h3>
-        
+             <div align = 'right'
+             <h3>  Total = Rs{{ totles}} </h3>
+             <br/><br/>
+             <a href = "{% url 'checkout' %}" class = 'btn btn-success'>Checkout</a>
+             </div>
 
            <br/><br/><br/><br/>
            <br/><br/><br/><br/>
